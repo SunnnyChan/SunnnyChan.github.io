@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on SunnyChan&#39;s Blog</title>
+    <link>https://sunnnychan.github.io/post/</link>
+    <description>Recent content in Posts on SunnyChan&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 12 Nov 2017 11:18:15 +0800</lastBuildDate>
+    
+	<atom:link href="https://sunnnychan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CONTENTS</title>
+      <link>https://sunnnychan.github.io/post/readme/</link>
+      <pubDate>Sun, 12 Nov 2017 11:18:15 +0800</pubDate>
+      
+      <guid>https://sunnnychan.github.io/post/readme/</guid>
+      <description>BigData Say Bigdata from Sunny&amp;rsquo;s Perspective Spark Web Nginx Programme API Algorithm Language Java PHP Lua Testing Performance Test Test Framework Linux Shell Sunny&amp;rsquo;s NoteBook Sunny&amp;rsquo;s Reading-Notes Sunny&amp;rsquo;s Projects Sunny&amp;rsquo;s Q&amp;amp;A Sunny&amp;rsquo;s Travels</description>
+    </item>
+    
+  </channel>
+</rss>
