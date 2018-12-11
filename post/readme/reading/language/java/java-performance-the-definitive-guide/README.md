@@ -15,7 +15,7 @@ Reading Note Start : 2018-12-03
 * 原则3：用统计方法应对性能变化
 * 原则4：尽早频繁测试
 
-### [03 - 工具](chapter/chapter-3_tools.md)
+### [[03 - 工具]](chapter/chapter-3_tools.md)
 * 操作系统的工具和分析
 * Java 监控工具
 * 性能分析工具
@@ -31,15 +31,15 @@ Reading Note Start : 2018-12-03
 * 分层编译级别
 
 ### [05 - GC 入门]
-* 垃圾收集概述
-* GC 调优基础
+* [垃圾收集概述](chapter/chapter-5.1_GC.md)
+* [GC 调优基础](chapter/chapter-5.2_GC_IM_basic.md)
 * 垃圾回收工具
 
 ### [06 - GC 算法]
 * 理解 Throughput 收集器
-* 理解 CMS 收集器
-* 理解 G1 垃圾收集器
-* 高级调优
+* [理解 CMS 收集器](chapter/chapter-6.2_GC-CMS.md)
+* [理解 G1 垃圾收集器](chapter/chapter-6.3_GC-G1.md)
+* [高级调优](chapter/chapter-6.4_advance_IM.md)
 
 ### [07 - 堆内存最佳实践]
 * [堆分析](chapter/chapter-7.1_heap-memory-analysis.md)
