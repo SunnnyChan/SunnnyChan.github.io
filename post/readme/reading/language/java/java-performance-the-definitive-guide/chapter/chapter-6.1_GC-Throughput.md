@@ -1,1 +1,3 @@
-# Throughput 收集器
+# 垃圾回收算法
+ 
+## Throughput 收集器
