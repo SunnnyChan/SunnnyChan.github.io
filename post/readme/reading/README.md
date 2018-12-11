@@ -19,7 +19,11 @@
 * [《性能之巅：洞悉系统、企业和云计算》](programe/profile/sys-performance/README.md)
 
 ### Language
+#### C
+* [《Linux C 编程一站式学习》]
+
 #### Java
+* [《Thinking in Java》]
 * [《Java 并发编程的艺术》](language/java/art_of_java_concurrency_programming/README.md)
 * [《图解 Java 多线程设计模式》](language/java/java-MT-thread-DP/README.md)
 * [《Java 性能权威指南》](language/java/java-performance-the-definitive-guide/README.md)
@@ -32,7 +36,9 @@
 * [《Effective MySQL : Optimizing SQL Statements》](db/effective_mysql_sql_statements/README.md)
 
 * [《Relational Database Index Design and the Optimizers》]()
+* [《SQL CookBook》]
 * [《Effective SQL : 编写高质量SQL语句的61个有效方法》](db/effective_sql/README.md)
+
 
 ## Architecture
 * [《面向模式的软件架构 - 卷1 ：模式系统》](arch/POSA-sys-of-patterns/README.md)
