@@ -80,3 +80,7 @@ Reading Note Start : 2018-12-03
 * AggressiveOpts 标志
 * Lambda 表达式和匿名类
 * 流和过滤器的性能
+
+### 参考
+[Examples from the book](https://github.com/snattrass/java-performance-definitive-guide)
+[Examples for the book](https://github.com/ScottOaks/JavaPerformanceTuning)
