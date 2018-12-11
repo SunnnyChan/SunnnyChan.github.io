@@ -20,7 +20,7 @@
 
 ### Language
 #### C
-* [《Linux C 编程一站式学习》]
+* [《Linux C 编程一站式学习》](language/c/linux-c-programming/README.md)
 
 #### Java
 * [《Thinking in Java》]
