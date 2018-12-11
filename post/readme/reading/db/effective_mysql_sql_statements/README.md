@@ -33,13 +33,13 @@ Reading Note Start : 2018-12-03
 * [Better Indexes](chapter/chapter-5_create_better_index.md)
 
 ### [6 - MySQL Configuration Options]
-* [Memory Related Variables 内存相关变量]
+* [Memory Related Variables 内存相关系统变量](chapter/chapter-6_mysql_config.md)
 * [Instrumentation Related Variables 基础工具相关变量]
 * [Other Optimization Variables]
 * [Other Variables]
 
 ### [7 - The SQL Lifecycle]
-* [Capture Statements 截取语句]
+* [Capture Statements 截取语句](chapter/chapter-7.1_capture_statements.md)
 * [Engine Status]
 * [Identify Problematic Statements 识别有问题的语句]
 * [Confirm Statement Operation 确认语句操作]
@@ -48,11 +48,11 @@ Reading Note Start : 2018-12-03
 * [Verify the Results 验证结果]
 
 ### [8 - Hidden Performance Tips]
-* [Index Management Optimizations]
-* [Index Column Improvements]
-* [Other SQL Optimizations]
+* [Index Management Optimizations](chapter/chapter-8.1_index_mgt_optimize.md)
+* [Index Column Improvements](chapter/chapter-8.1_index_mgt_optimize.md)
+* [Other SQL Optimizations](chapter/chapter-8.2_sql_optimze.md)
 
-### [9 - Explaining the MySQL Explain]
+### [[9 - Explaining the MySQL Explain]](chapter/chapter-9_explain.md)
 * [Syntax]
 * [Explain Columns]
 * [Interpreting EXPLAIN Output]
