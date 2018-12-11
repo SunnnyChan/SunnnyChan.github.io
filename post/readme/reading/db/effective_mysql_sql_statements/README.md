@@ -20,7 +20,7 @@ Reading Note Start : 2018-12-03
 * [About Storage Engines](chapter/chapter-3.1_index_basic.md)
 * [Index Terminology 索引术语](chapter/chapter-3.1_index_basic.md)
 * [MySQL Index Types 索引类型](chapter/chapter-3.2_index_types.md)
-* [MySQL Partitioning](chapter/chapter-3.3_partitions.md)
+* [MySQL Partitioning 分区与索引](chapter/chapter-3.3_partitions.md)
 
 ### [4 - Creating Indexes]
 * [Existing Indexes 已有索引](chapter/chapter-4_create_index.md)

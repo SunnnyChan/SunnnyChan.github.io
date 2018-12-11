@@ -97,15 +97,22 @@ mysql会在page分裂后，判断page中的数据，
 ```
 > * 参考 [MySQL聚簇索引](https://yq.aliyun.com/articles/142879)
 
-### InnoDB B-树 辅助索引
+### InnoDB B-树 二级索引
 ```md
-InnoDB 中的辅助索引使用了B-树数据结构，但实现和MyISAM是不一样的。
+InnoDB 中的二级索引使用了B-树数据结构，但实现和MyISAM是不一样的。
+二级索引存储的是主键值，而MyISAM存储的是数据的指针。
 
+所以，当定义了很大的主键时，二级索引可能会更大。
+但是二级索引中的主键值，在查询时可以作为索引列（虽然定义二级索引时可以不包含主键列），
+这在做表连接和使用覆盖索引时会优化性能。
 ```
 ### Memory 散列 索引
 
 ### Memory B-树 索引
 
-
 ### InnoDB 内部散列索引
+```md
+InnoDB 内部还使用内存中的散列表来高效地进行主码查询。
+用户只能通过 innodb_adaptive_hash_index 来配置是否启动。
+```
 
