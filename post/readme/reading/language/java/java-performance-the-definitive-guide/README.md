@@ -33,7 +33,7 @@ Reading Note Start : 2018-12-03
 ### [05 - GC 入门]
 * [垃圾收集概述](chapter/chapter-5.1_GC.md)
 * [GC 调优基础](chapter/chapter-5.2_GC_IM_basic.md)
-* 垃圾回收工具
+* [垃圾回收工具](chapter/chapter-5.3_GC_tools.md)
 
 ### [06 - GC 算法]
 * 理解 Throughput 收集器
