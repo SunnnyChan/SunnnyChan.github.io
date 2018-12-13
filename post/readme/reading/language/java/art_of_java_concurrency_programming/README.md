@@ -6,15 +6,15 @@ Reading Note Start : 2018-12-06
 
 ## Chapters
 
-### [01 - 并发编程的挑战]
+### [[01 - 并发编程的挑战]](01-challenge.md)
 * [上下文切换]
 * [死锁]
 * [资源限制的挑战]
 
 ### [02 - Java 并发机制实现原理]
-* [volatile]
-* [synchronized]
-* [原子操作]
+* [volatile 的应用](02-underlying-principle/02-01_volatile_application.md)
+* [synchronized 的实现原理与应用](02-underlying-principle/02-02_synchronized.md)
+* [原子操作的实现原理](02-underlying-principle/02-03_atomic_oprations.md)
 
 ### [03 - Java 内存模型]
 * [内存模型基础](03-JMM/03-1-JMM.md)
