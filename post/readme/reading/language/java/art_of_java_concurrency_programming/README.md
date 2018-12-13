@@ -17,15 +17,15 @@ Reading Note Start : 2018-12-06
 * [原子操作]
 
 ### [03 - Java 内存模型]
-* [内存模型基础](chapter/03-1-JMM.md)
-* [重排序](chapter/03-2-reorder.md)
-* [顺序一致性](chapter/03-3-sequential-consistency.md)
-* [volatile 的内存语义](chapter/03-04-volatile-memory-semantics.md)
-* [锁 的内存语义](chapter/03-05-lock-memory-semantics.md)
-* [final 域的内存语义](chapter/03-06-final-memory-semantics.md)
-* [happens-before](chapter/03-07-happens-before.md)
-* [双重检查锁定和延迟初始化](chapter/)03-08-recheck-lock-and-latency-init.md
-* [内存模型综述](chapter/03-09-summary.md)
+* [内存模型基础](03-JMM/03-1-JMM.md)
+* [重排序](03-JMM/03-2-reorder.md)
+* [顺序一致性](03-JMM//03-3-sequential-consistency.md)
+* [volatile 的内存语义](03-JMM/03-04-volatile-memory-semantics.md)
+* [锁 的内存语义](03-JMM/03-05-lock-memory-semantics.md)
+* [final 域的内存语义](03-JMM/03-06-final-memory-semantics.md)
+* [happens-before](03-JMM/03-07-happens-before.md)
+* [双重检查锁定和延迟初始化](03-JMM/03-08-recheck-lock-and-latency-init.md)
+* [内存模型综述](03-JMM/03-09-summary.md)
 
 ### [04 - Java 并发编程基础]
 * [线程]
