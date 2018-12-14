@@ -4,6 +4,8 @@
 * [Java Performance](java-performance/README.md)
 * [Java GC](java-GC/README.md)
 
+* [Java JVM](java-jvm/README.md)
+
 * [Java Spring]
 
 ## Reference
