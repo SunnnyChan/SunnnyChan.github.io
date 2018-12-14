@@ -15,6 +15,36 @@ AtomicInteger
 AtomicLong
 ```
 ### AtomicInteger 
+* 常用方法
+* * int addAndGet(int delta)
+```md
+以原子方式将输入的数值和实例中的值（AtomicInteger 里的value）相加，并返回结果。
+```
+* * boolean compareAndSet(int expect, int update)
+```md
+如果输入的数值等于预期值，则以原子的方式将值更新。
+```
+* * int getAndIncrement()
+```md
+以原子方式将值加1，注意这里返回的是自增前的值。
+```
+* * void lazySet(int newValue)
+```md
+最终会设置成 newValue，使用 lazySet 设置值后，
+可能导致其他线程在之后的一小段时间内还是读取的旧值。
+```
+* * int getAndSet(int newValue)
+```md
+以原子方式设置为 newValue，并返回旧值。
+```
+
+* 实现
+```md
+书中使用的是Java 7的实现，Java 8 对 CAS 进行了增强。
+```
+> 参考[Java 8 中 CAS 的增强](https://www.ktanx.com/blog/p/4693)
+
+* 其他基本类型
 
 ## 原子更新数组
 ```md
@@ -32,6 +62,7 @@ AtomicReferenceFieldUpdater
 AtomicMarkableReference
 ```
 ### AtomicReference
+
 
 ## 原子更新字段类
 ```md
