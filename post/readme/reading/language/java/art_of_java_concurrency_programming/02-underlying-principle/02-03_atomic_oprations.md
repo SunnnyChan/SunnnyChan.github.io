@@ -6,15 +6,111 @@
 > 首先了解 [CPU 相关术语](../00-refer/CPU-terms.md)
 
 ## 处理器如何实现原子操作
+```md
+处理器会保证基本的内存操作的原子性，处理器保证从内存中读取或写入一个字节是原子的，
+即当处理器读取一个字节时，其他处理器不能访问这个字节的内存地址。
+最新的处理器能保证对同一个缓存行里进行 16/32/64位 的操作是原子的。
 
+但是复杂的内存操作是不能自动保证其原子性的，比如跨总线宽度、跨多个缓存行或跨页表的访问。
+此时，处理器提供总线锁定和缓存锁定来实现复杂内存操作的原子性。
+```
 ### 使用总线锁保证原子性
+```md
+如果多个处理器同时对共享变量做读写操作（i++就是经典的场景），
+共享变量如果被多个处理器操作，这样的操作就不是原子的，可能造成操作的结果与预期不一致。
 
+原因可能是 多个处理器基于从各自的缓存读取变量做操作。
+
+所谓总线锁就是使用 处理器提供的LOCK#信号，当一个处理器在总线上输出此信号时，
+其他处理器的请求被阻塞，那么该处理器可以独占内存。
+```
 ### 使用缓存锁保证原子性
+```md
+总线锁直接把CPU和内存之间的通信锁住了，这会使得其他处理器不能操作内存。
+所以总线锁定的开销比较大，实际上只需要保证对某个内存地址的操作是原子的即可，
+其他处理器仍可以处理该内存地址之外的数据，目前处理器在某些场合下使用缓存锁定来代替总线锁定进行优化。
 
+频繁使用的内存数据会被缓存，那么原子操作就可以直接在处理器内部缓存中进行，而不需要声明总线锁。
+所谓“缓存锁定”指内存区域如果被缓存在处理器的缓存行中，并且在Lock操作期间被锁定，
+那么它执行锁操作回写内存时，不在总线上声明LOCK#信号，而是修改内部的内存地址，
+并允许他的缓存一致性机制来保证操作的原子性，因为缓存一致性机制会阻止同时修改由两个以上处理器缓存的内存区域数据，
+当其他处理器回写已锁定的缓存行时，会使得缓存行无效。
+```
+* 不使用缓存锁定的情况
+```md
+1. 当操作的数据不能被缓存在处理器内部时，或操作的数据跨越多个缓存行式
+2. 有些处理器不支持缓存锁定。
+以上处理器都会调用总线锁定。
+```
 ## Java 如何实现原子操作
 
 ### 使用循环 CAS 实现原子操作
+```md
+JVM 中的 CAS 操作利用 处理器提供的 CMPXCHG 指令实现。
+自旋 CAS 的基本思路 是循环进行 CAS 操作，直到成功为止。
+```
+* 示例 - 基于 CAS 线程安全的计数器 和 非线程安全计数器
+```java
+public class Counter {
 
+    private AtomicInteger atomicI = new AtomicInteger(0);
+    private int           i       = 0;
+
+    public static void main(String[] args) {
+        final Counter cas = new Counter();
+        List<Thread> ts = new ArrayList<Thread>(600);
+        long start = System.currentTimeMillis();
+        for (int j = 0; j < 100; j++) {
+            Thread t = new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    for (int i = 0; i < 10000; i++) {
+                        cas.count();
+                        cas.safeCount();
+                    }
+                }
+            });
+            ts.add(t);
+        }
+        for (Thread t : ts) {
+            t.start();
+
+        }
+        // 等待所有线程执行完成
+        for (Thread t : ts) {
+            try {
+                t.join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+        }
+        System.out.println(cas.i);
+        System.out.println(cas.atomicI.get());
+        System.out.println(System.currentTimeMillis() - start);
+    }
+
+    /**
+     * 使用CAS实现线程安全计数器
+     */
+    private void safeCount() {
+        for (;;) {
+            int i = atomicI.get();
+            boolean suc = atomicI.compareAndSet(i, ++i);
+            if (suc) {
+                break;
+            }
+        }
+    }
+
+    /**
+     * 非线程安全计数器
+     */
+    private void count() {
+        i++;
+    }
+}
+```
 ### CAS 的问题
 
 * ABA 问题
