@@ -1,4 +1,5 @@
 # Microservices AntiPatterns and Pitfalls
+> 微服务反模式与陷阱
 ```md
 By Mark Richards
 Reading Note Start : 2018-12-15
@@ -7,11 +8,12 @@ Reading Note Start : 2018-12-15
 ## Chapters
 
 ### [01 - Data-Driven Migration AntiPattern]
-### [02 - Akka]
-### [03 - DDD（分布式领域驱动设计）]
-### [04 - 优秀的 Actor 设计]
-### [05 - 数据流]
-### [06 - 一致性和可扩展性]
-### [07 - 容错]
-### [08 - 可用性]
-### [09 - 性能]
+### [02 - The Timeout AntiPattern]
+### [03 - The “I Was Taught to Share” AntiPattern]
+### [04 - Reach-in Reporting AntiPattern]
+### [05 - Grains of Sand Pitfall]
+### [06 - Developer Without a Cause Pitfall]
+### [07 - Jump on the Bandwagon Pitfall]
+### [08 - The Static Contract Pitfall]
+### [09 - Are We There Yet Pitfall]
+### [10 - Give It a Rest Pitfall]
