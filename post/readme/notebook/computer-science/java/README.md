@@ -1,8 +1,8 @@
 # Java Knowledge Systems
 
-* [Java Concurrency](java-concurrency.md)
-* [Java Performance](java-performance.md)
-* [Java GC](java-GC.md)
+* [Java Concurrency](java-concurrency/README.md)
+* [Java Performance](java-performance/README.md)
+* [Java GC](java-GC/README.md)
 
 * [Java Spring]
 
