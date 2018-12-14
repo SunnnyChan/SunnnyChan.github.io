@@ -39,8 +39,7 @@
 * [《SQL CookBook》]
 * [《Effective SQL : 编写高质量SQL语句的61个有效方法》](db/effective_sql/README.md)
 
-
-## Architecture
+## Software Architecture
 * [《面向模式的软件架构 - 卷1 ：模式系统》](arch/POSA-sys-of-patterns/README.md)
 * [《可伸缩架构 : 面向增长应用的高可用》](arch/scalable_arch/README.md)
 
@@ -50,9 +49,15 @@
 * [《分布式服务框架：原理与实践》](arch/DS-Service-Framework/README.md)
 * [《Akka 应用模式： 分布式应用程序设计实践指南》](arch/applied-akka-patterns/README.md)
 
+### Microservice
+* [Microservices AntiPatterns and Pitfalls](arch/Microservices-AntiPatterns-and-Pitfalls/README.md)
+
 ## Blockchain
 * [《去中心化应用 : 区块链技术概述》](blockchain/dapp/README.md)
 * [《区块链核心算法解析》](blockchain/algos_in_blockchain/README.md)
 
+## Computer Architecture
+* [Memory Systems Cache, DRAM, Disk](https://www.e-reading.club/bookreader.php/138837/Jacob,_Ng,_Wang_-_Memory_systems._Cache,_DRAM,_Disk.pdf)
+* [What Every Programmer Should Know About Memory](https://akkadia.org/drepper/cpumemory.pdf)
 
 ## Miscs
