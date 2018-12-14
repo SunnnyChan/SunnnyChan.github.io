@@ -7,7 +7,7 @@
 * [Java](computer-science/java/README.md)
 
 ### Achitecture
-* [Distributed System](computer-science/distributed-system/README.md)
+* [Distributed](computer-science/distributed-system/README.md)
 
 ## Methodology
 * [Google 方法论](methodology/google-methodology/README.md)   [吴军]
