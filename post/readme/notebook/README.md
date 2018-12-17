@@ -12,14 +12,13 @@
 
 ### [Infrastructure](computer-science/infrastructure/README.md)
 
-
 ## Management
 * [Technical Leader](management/technical-leader/README.md)
 
-
 ## Methodology
-* [Google Methodology - 吴军](methodology/google-methodology/README.md) 
 * [Cognitive Methodology](methodology/cognitive-methodology/README.md)
 * [Analytical Methodology](methodology/analytical-methodology/README.md)
+
+* [Google Methodology - 吴军](methodology/google-methodology/README.md) 
 
 ## Mathematics
