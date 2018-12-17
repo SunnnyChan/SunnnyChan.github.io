@@ -3,9 +3,9 @@
 > By Ted Dunning, Ellen Friedman
 > 2018-11-29
 
-### Chapter 1 Why?
-### Chapter 2 流式架构
-### Chapter 3 流架构：微服务的理想平台
+### [Chapter 1 Why?](chapter/01-why-streaming.md)
+### [Chapter 2 流式架构](chapter/02-streaming-arch.md)
+### [Chapter 3 流架构：微服务的理想平台](chapter/03-microserice-vs-streaming.md)
 ### Chapter 4 使用Kafka进行流传输
 ### Chapter 5 MapR Streams
 ### Chapter 6 基于流数据的欺诈检测
