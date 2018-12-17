@@ -7,8 +7,11 @@
 * [Java](computer-science/java/README.md)
 
 ### Achitecture
-* [Distributed](computer-science/distributed-system/README.md)
-* [Microservice](computer-science/microservice/README.md)
+* [Distributed](computer-science/arch/distributed-system/README.md)
+* [Microservice](computer-science/arch/microservice/README.md)
+
+### [Infrastructure](computer-science/infrastructure/README.md)
+
 
 ## Management
 * [Technical Leader](management/technical-leader/README.md)
