@@ -1,4 +1,4 @@
-# 互联网基础设施
+# 基础架构设施
 
 ![](pic/infrastructure.jpg)
 
