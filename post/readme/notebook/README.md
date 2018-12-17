@@ -10,9 +10,14 @@
 * [Distributed](computer-science/distributed-system/README.md)
 * [Microservice](computer-science/microservice/README.md)
 
+## Management
+* [Technical Leader](management/technical-leader/README.md)
+
+
 ## Methodology
 * [Google 方法论](methodology/google-methodology/README.md)   [吴军]
 * [认知方法论](methodology/cognitive-methodology/README.md)
 * [分析方法论](methodology/analytical-methodology/README.md)
+
 
 ## Mathematics
