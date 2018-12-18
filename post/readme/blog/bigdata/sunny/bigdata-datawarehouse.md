@@ -1,5 +1,7 @@
 #  大数据 - 数据仓库
-> By sunnnychan@gmail.com
+```md
+By sunnnychan@gmail.com
+```
 
 ## 引言
 ```md

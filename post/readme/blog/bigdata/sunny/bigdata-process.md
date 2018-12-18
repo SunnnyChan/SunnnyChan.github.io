@@ -1,5 +1,7 @@
 #  大数据 - 出发
-> By sunnnychan@gmail.com
+```md
+By sunnnychan@gmail.com
+```
 
 ## 引言
 ```md
@@ -133,8 +135,7 @@ HDFS 使用 NameNode 来管理文件信息， DataNode 来管理数据。
 ```md
 最早的分布式计算框架是 MapReduce，简单来说，MapReduce 就是“任务的分解和结果的汇总”。
 ```
-* MapReduce 计算模型  
-
+* MapReduce 计算模型
 ![](pic/MapReduce-flow.png)
 ```md
 Map 对任务进行分解，分解的主要目标是使计算尽量靠近数据，尽量达到都在本地进行计算，以减少数据传输，节省带宽。
