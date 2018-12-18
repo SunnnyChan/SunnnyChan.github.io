@@ -12,6 +12,12 @@
 
 ### [Infrastructure](computer-science/infrastructure/README.md)
 
+### Basic Techniques
+* [Serialization](computer-science/cookbook/serialization/README.md)
+* [Regular Expression](computer-science/cookbook/regular-express/README.md)
+* [Charset](computer-science/cookbook/charset/README.md)
+* [CODEC](computer-science/cookbook/CODEC/README.md)
+
 ## Management
 * [Technical Leader](management/technical-leader/README.md)
 
