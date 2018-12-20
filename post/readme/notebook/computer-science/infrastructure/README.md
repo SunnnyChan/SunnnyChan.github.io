@@ -5,15 +5,12 @@
 * [缓存](objects/cache/README.md)
 * [消息队列](objects/mq/README.md)
 
-## 网关
 * 统一请求入口-API网关
 > * [负载均衡](objects/load-balancer/README.md)
 > * API访问权限控制
 > * 用户鉴权
 
-## 高可用
 * [服务治理](objects/service-governance/README.md)
-* [故障监控](objects/monitor/README.md)
 
 ## 业务基础服务
 * [统一配置中心](biz-infra/configure/README.md)
