@@ -2,31 +2,40 @@
 
 ![](pic/infrastructure.jpg)
 
+* [缓存](objects/cache/README.md)
+* [消息队列](objects/mq/README.md)
+
+## 网关
 * 统一请求入口-API网关
-> * [负载均衡](load-balancer/README.md)
+> * [负载均衡](objects/load-balancer/README.md)
 > * API访问权限控制
 > * 用户鉴权
 
-* [缓存](cache/README.md)
-* [消息队列](mq/README.md)
+## 高可用
+* [服务治理](objects/service-governance/README.md)
+* [故障监控](objects/monitor/README.md)
 
-* [服务治理](service-governance/README.md)
-* [故障监控](monitor/README.md)
+## 业务基础服务
+* [统一配置中心](objects/configure/README.md)
+* [统一调度中心](objects/scheduling/README.md)
+* [统一日志服务](objects/log/README.md)
 
+* [ID 生成器](objects/id-generator/README.md)
+
+### 登录认证
+* 单点登录系统
+* 统一认证中心
+
+## 数据基础设施
+### 数据存储
 * 数据库
 * 搜索引擎
 * 文件存储
 
-* 单点登录系统
-* 统一认证中心
+### 数据传输
+* 数据高速公路
 
-* [统一配置中心](configure/README.md)
-* [统一调度中心](scheduling/README.md)
-* [统一日志服务](log/README.md)
-
-* 数据基础设施
-> * 数据高速公路
-
-> * 离线数据分析
-> * 实时数据分析
-> * 数据即席分析
+### 数据分析
+* 离线数据分析
+* 实时数据分析
+* 数据即席分析
