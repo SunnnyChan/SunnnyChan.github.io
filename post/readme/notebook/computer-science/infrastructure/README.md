@@ -16,11 +16,11 @@
 * [故障监控](objects/monitor/README.md)
 
 ## 业务基础服务
-* [统一配置中心](objects/configure/README.md)
-* [统一调度中心](objects/scheduling/README.md)
-* [统一日志服务](objects/log/README.md)
+* [统一配置中心](biz-infra/configure/README.md)
+* [统一调度中心](biz-infra/scheduling/README.md)
+* [统一日志服务](biz-infra/log/README.md)
 
-* [ID 生成器](objects/id-generator/README.md)
+* [ID 生成器](biz-infra/id-generator/README.md)
 
 ### 登录认证
 * 单点登录系统
