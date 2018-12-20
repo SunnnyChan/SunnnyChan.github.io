@@ -22,6 +22,9 @@
 
 ### [Github](computer-science/github/README.md) 
 
+### Linux
+* [Command Line](computer-science/linux/cmd/README.md)
+
 ## Management
 * [Technical Leader](management/technical-leader/README.md)
 

@@ -1,4 +1,5 @@
 # Sunny's Project
 
 ## Test Framework
-* [SunnyTest - API 测试框架](https://github.com/SunnnyChan/sunny-test)
+* [SunnyTest](https://github.com/SunnnyChan/sunny-test)
+> API Test Framework
