@@ -68,3 +68,9 @@ MySQL 5.6.5版本之前，只适用于TIMESTAMP，而且一张表中，最多允
 * LOCALTIME()
 * LOCALTIMESTAMP
 * LOCALTIMESTAMP()
+
+## 不存在的时间
+```md
+不存在的Date，DateTime或者TimeStamp值会被转换成各自类型的“Zero”值；
+（’0000-00-00’ or ‘0000-00-00 00:00:00’）
+```

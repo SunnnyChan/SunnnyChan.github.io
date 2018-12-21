@@ -4,12 +4,14 @@
 * [Java Concurrency](java-concurrency/README.md)
 
 * [Java Spring](java-spring/README.md)
-* [Java Debug](java-debug/README.md)
 
 * [Java JVM](java-jvm/README.md)
 * [Java Performance](java-performance/README.md)
 * [Java GC](java-GC/README.md)
 
+* [Java Cookbook](java-cookbook/README.md)
+* [Java Debug](java-debug/README.md)
+* [Java Pitfall](java-pitfall/README.md)
 
 * [Maven](maven/README.md)
 
