@@ -1,22 +1,28 @@
 # Sunny's NoteBook
 
 ## Computer Science
-
-* [Java](computer-science/java/README.md)
-* [Programming Paradigms]()
-> * [OOP]()
-* [API](computer-science/api/README.md)
-> * [RESTful]()
-* [Design Patterns](design-patterns/README.md)
-
-* [Database](computer-science/database/README.md)
-
+### Internet Domains
 * [Bigdata](computer-science/bigdata/README.md)
 * [Web](computer-science/web/README.md)
 > * [nginx](computer-science/web/nginx/README.md)
 > * [http](computer-science/web/http/README.md)
 * [AI]()
 * [Knowledge Graph](internet/knowledge-graph/README.md)
+
+### Language
+* [Java](computer-science/language/java/README.md)
+* [PHP](computer-science/language/java/README.md)
+
+### [Programming Paradigms](computer-science/programming-paradigms/README.md)
+> * [OOP](computer-science/programming-paradigms/OOP/README.md)
+
+### [Database](computer-science/database/README.md)
+* [MySQL](computer-science/database/mysql/README.md)
+
+### Coding
+* [API](computer-science/api/README.md)
+> * [RESTful]()
+* [Design Patterns](design-patterns/README.md)
 
 ### Achitecture
 * [Distributed](computer-science/arch/distributed-system/README.md)
@@ -25,6 +31,7 @@
 * [HA](computer-science/arch/HA/README.md)
 
 ### [Infrastructure](computer-science/infrastructure/README.md)
+
 * [Cache](computer-science/infrastructure/objects/cache/README.md)
 * [MQ](computer-science/infrastructure/objects/mq/README.md)
 
