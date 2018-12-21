@@ -17,7 +17,7 @@
 * [nanomsg] - 构建在ZeroMQ的可靠性能之上，同时又提供了若干重要的改进
 
 ## 技术选型
-* [Nsq vs Kafka](http://bridgeforyou.cn/2018/10/02/Nsq-5-Nsq-vs-Kafka/)
+* [NSQ vs Kafka](http://bridgeforyou.cn/2018/10/02/Nsq-5-Nsq-vs-Kafka/)
 
 * 协议
 ```md
