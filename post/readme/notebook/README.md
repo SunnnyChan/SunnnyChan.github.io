@@ -25,8 +25,8 @@
 * [HA](computer-science/arch/HA/README.md)
 
 ### [Infrastructure](computer-science/infrastructure/README.md)
-* [Cache](computer-science/infrastructure/cache/README.md)
-* [Message Queue](computer-science/infrastructure/mq/README.md)
+* [Cache](computer-science/infrastructure/objects/cache/README.md)
+* [MQ](computer-science/infrastructure/objects/mq/README.md)
 
 ### Basic Techniques
 * [Serialization](computer-science/cookbook/serialization/README.md)
