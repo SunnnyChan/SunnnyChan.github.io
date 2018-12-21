@@ -1,7 +1,7 @@
 # MQ 实现
 
 ## 开源实现
-* [Apache Kafka](x_kafka.md)
+* [Apache Kafka](../../../bigdata/components/kafka/README.md)
 * [Apache Pulsar] - 由Yahoo开发并开源的下一代发布订阅消息系统
 * [Apache DistributedLog] - 被称为“共享日志基础设施”
 
