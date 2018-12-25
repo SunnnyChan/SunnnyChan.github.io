@@ -8,7 +8,8 @@
 > * [nginx](computer-science/web/nginx/README.md)
 > * [http](computer-science/web/http/README.md)
 
-* [AI]()
+* [Cloud](cloud/README.md)
+* [AI](AI/README.md)
 * [Knowledge Graph](internet/knowledge-graph/README.md)
 
 ### Language
