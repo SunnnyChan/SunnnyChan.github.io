@@ -8,15 +8,17 @@
 ## [Data Warehouse]
 * [Apache Hive](apache-hive/README.md)
 
+## [Data Analytics](data-analytics/README.md)
+* [BI](data-analytics/BI/README.md)
+
+## [Data Oriented Design](data-oriented-design/README.md)
+
 ## Framework
 * [Apache Flink](apache-flink/README.md)
 * [Apache Spark](apache-spark/README.md)
 
 ## Components
 * [Apache Kafka](components/kafka/README.md)
-
-## [Data Analytics](data-analytics/README.md)
-* [BI](data-analytics/BI/README.md)
 
 ## Miscs
 * [Data Algorithms](data-algorithms/README.md)
