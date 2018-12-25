@@ -3,13 +3,14 @@
 * [HA](HA.md)
 
 ## 策略
-* 限流
-* 流量消峰
-* 流量整形
-* 隔离
+### [流量](traffic/README.md)
+
+### 服务
+* 服务隔离
 * 服务降级
 * 服务熔断
-* [监控](monitor/README.md)
+
+### [监控](monitor/README.md)
 
 ## 组件
 * [Sentinel](https://github.com/alibaba/Sentinel/wiki/%E4%BB%8B%E7%BB%8D)
