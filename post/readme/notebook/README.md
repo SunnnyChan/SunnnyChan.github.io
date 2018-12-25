@@ -44,6 +44,8 @@
 * [Charset](computer-science/cookbook/charset/README.md)
 * [CODEC](computer-science/cookbook/CODEC/README.md)
 
+## [Software Test](omputer-science/test/README.md)
+
 ### [Github](computer-science/github/README.md) 
 
 ### Linux
