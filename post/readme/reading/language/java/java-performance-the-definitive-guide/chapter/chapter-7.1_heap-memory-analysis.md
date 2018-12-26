@@ -66,11 +66,11 @@ Klass 相关的对象往往接近顶端，他们是类加载的元数据对象�
 顶端 字符数组([C) 和 String 也比较常见，它们是最长创建的Java对象。
 字节数组([B) 和 Object数组（[Ljava.lang.Object）也常见，因为类加载器会将其数据保存到这些结构中。
 ```
-* jamp -histo pid
+* jmap -histo pid
 ```md
 会得到类似输出，但包含会被回收的对象。
 ```
-* jamp -histo:live pid
+* jmap -histo:live pid
 ```md
 强制执行一次GC
 ```
