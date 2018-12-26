@@ -1,4 +1,4 @@
-# jstat
+# [jstat - Java Virtual Machine Statistics Monitoring Tool](https://docs.oracle.com/javase/7/docs/technotes/tools/share/jstat.html)
 
 * GC 统计
 ```shell
@@ -131,3 +131,6 @@ Size：最近编译方法的字节码数量
 Type：最近编译方法的编译类型。
 Method：方法名标识。
 ```
+
+## 参考
+* [查看JVM的GC情况]
