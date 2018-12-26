@@ -17,7 +17,9 @@
 ```
 ### 堆直方图
 > 确认哪类对象消耗了大量内存
-* jcmd pid GC.class_histogram
+```sh
+$ jcmd pid GC.class_histogram
+```
 ```md
 如果内存压力是由一些特定的对象类型引起的，利用直方图我们很快能看出端倪。
 而直方图不需要做堆转储。
