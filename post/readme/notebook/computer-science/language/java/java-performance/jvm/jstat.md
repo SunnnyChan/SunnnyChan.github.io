@@ -48,7 +48,8 @@ NGCMX：新生代最大容量
 NGC：当前新生代容量
 OGCMN：老年代最小容量
 OGCMX：老年代最大容量
-OGC：当前老年代大小
+OGC	Current old generation capacity (KB).
+OC	Current old space capacity (KB).
 MCMN:最小元数据容量
 MCMX：最大元数据容量
 ```
