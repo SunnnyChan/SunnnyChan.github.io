@@ -1,4 +1,4 @@
-# [jstat - Java Virtual Machine Statistics Monitoring Tool](https://docs.oracle.com/javase/7/docs/technotes/tools/share/jstat.html)
+# [jstat - JVM Statistics Monitoring Tool](https://docs.oracle.com/javase/7/docs/technotes/tools/share/jstat.html)
 
 * GC 统计
 ```shell
