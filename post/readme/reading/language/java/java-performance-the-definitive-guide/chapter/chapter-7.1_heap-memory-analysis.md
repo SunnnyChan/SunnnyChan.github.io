@@ -23,7 +23,7 @@
 而直方图不需要做堆转储。
 ```
 ```sh
-r$ jcmd 20105 GC.class_histogram
+$ jcmd 20105 GC.class_histogram
 20105:
 
  num     #instances         #bytes  class name
