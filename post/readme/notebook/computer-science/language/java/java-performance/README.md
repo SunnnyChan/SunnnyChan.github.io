@@ -1,13 +1,9 @@
 # Java Performance
 
-## Java Code Performance
+* Java Code Performance
+* JVM Performance
 
-
-
-## JVM Performance
-
-
-* 参考
+## 参考
 ### Book ReadingNotes
 * [Java Preformance : The Definitive Guide](https://github.com/SunnnyChan/SunnnyChan.github.io/tree/master/post/readme/reading/language/java/java-performance-the-definitive-guide)
 
