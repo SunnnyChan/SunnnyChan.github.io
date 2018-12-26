@@ -1,24 +1,26 @@
 #  冒号课堂
->  郑晖 [blog](https://www.cnblogs.com/xyz98/archive/2009/03/20/1417919.html)
-
+* BY 郑晖 [blog](https://www.cnblogs.com/xyz98/archive/2009/03/20/1417919.html)
 ## Content
 
 ### 编程范式与编程语言
-> * [开班导言](chapter/1-introduction.md) 
-> * [重要范式](chapter/2_important-paradigms.md)  
-> * [常用范式](chapter/3_commonly-use-paradigms.md)  
-> * [重温范式](chapter/4_review_paradigms.md)  
-> * [语言小谈](chapter/5_language_chit-chat.md)  
-> * [语言简评](chapter/6_language-comment.md)  
+* [开班导言](chapter/1-introduction.md) 
+* [重要范式](chapter/2_important-paradigms.md)  
+* [常用范式](chapter/3_commonly-use-paradigms.md)  
+* [重温范式](chapter/4_review_paradigms.md)  
+* [语言小谈](chapter/5_language_chit-chat.md)  
+* [语言简评](chapter/6_language-comment.md)  
 
 ### 抽象机制与对象范式
-> * [抽象封装]()  
-> * [抽象接口]()  
-> * [继承机制]()  
-> * [多态机制]()  
-> * [值与引用]()  
-> * [设计原则]()  
-> * [设计模式]()  
+* [抽象封装]()
+> * [抽象思维——减法和除法的学问](chapter/7.1_abstract.md)
+> * [数据抽象——“做什么”重于“怎么做”](chapter/7.2_abstract-what-to-do.md)
+> * [封装隐藏——包装的讲究]()
+* [抽象接口]()  
+* [继承机制]()  
+* [多态机制]()  
+* [值与引用]()  
+* [设计原则]()  
+* [设计模式]()  
 
 ## Comment
 ```md

@@ -1,10 +1,9 @@
 # Java Concurrency
 
-* [Java Lock](java-lock/java-lock.md)
-
+* [Thread](thread/README.md)
+* [ThreadPool](thread-pool/README.md)
+* [Lock](java-lock/java-lock.md)
 * [JCU](JCU/README.md)
-
-* [Java ThreadPool](thread-pool/README.md)
 
 ## Reference
 ### ReadingNote
