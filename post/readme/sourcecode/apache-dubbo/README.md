@@ -10,3 +10,7 @@
 * 信息交换层（Exchange）
 * 网络传输层（Transport）
 * 数据序列化层（Serialize）
+
+
+## 参考
+* [Dubbo 实现原理与源码解析系列]http://www.iocoder.cn/Dubbo/good-collection/?title)
