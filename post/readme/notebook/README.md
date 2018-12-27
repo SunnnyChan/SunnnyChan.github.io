@@ -44,12 +44,11 @@
 * [CODEC](computer-science/cookbook/CODEC/README.md)
 
 ### Software Engineer
-#### [Software Test](computer-science/engineer/test/README.md)
-#### [Software Development](computer-science/engineer/dev/README.md)
-#### [Github](computer-science/engineer/github/README.md) 
+* [Software Test](computer-science/engineer/test/README.md)
+* [Software Development](computer-science/engineer/dev/README.md)
+* [Github](computer-science/engineer/github/README.md) 
 
 ### Computer Architecture
-* [Parallel Architecture](computer-science/computer-arch/parallel-arch/README.md)
 #### [Operation System](computer-science/computer-arch/os/README.md)
 * [Linux](computer-science/computer-arch/linux/README.md)
 
@@ -57,9 +56,10 @@
 * [Technical Leader](management/technical-leader/README.md)
 
 ## Methodology
-### [Cognitive Methodology](methodology/cognitive-methodology/README.md)
-### [Analytical Methodology](methodology/analytical-methodology/README.md)
-### [Google Methodology - WuJun](methodology/google-methodology/README.md) 
+* [Cognitive Methodology](methodology/cognitive-methodology/README.md)
+* [Analytical Methodology](methodology/analytical-methodology/README.md)
+
+* [Google Methodology - WuJun](methodology/google-methodology/README.md) 
 
 ## Mathematics
 
