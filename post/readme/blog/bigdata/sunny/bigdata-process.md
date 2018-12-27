@@ -1,4 +1,4 @@
-# 1. 大数据 - 出发
+# 1. 大数据 - 立即出发
 ```md
 By sunnnychan@gmail.com
 2018-09-10

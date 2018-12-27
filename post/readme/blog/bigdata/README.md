@@ -1,7 +1,7 @@
 # BigData
 
 ## Say big data from sunny's perspective
-* [大数据 - 出发](sunny/bigdata-process.md)  
+* [大数据 - 立即出发](sunny/bigdata-process.md)  
 * [大数据 - 数据源](sunny/bigdata-datasource.md)  
 * [大数据 - 数据采集](sunny/bigdata-collection.md)
 * [大数据 - 数据存储](sunny/bigdata-storage.md)
