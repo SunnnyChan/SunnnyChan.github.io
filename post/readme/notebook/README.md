@@ -49,8 +49,9 @@
 #### [Github](computer-science/engineer/github/README.md) 
 
 ### Computer Architecture
-#### Linux
-* [Command Line](computer-science/computer-arch/linux/cmd/README.md)
+* [Parallel Architecture](computer-science/computer-arch/parallel-arch/README.md)
+#### [Operation System](computer-science/computer-arch/os/README.md)
+* [Linux](computer-science/computer-arch/linux/README.md)
 
 ## Management
 * [Technical Leader](management/technical-leader/README.md)
