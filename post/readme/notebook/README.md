@@ -44,9 +44,9 @@
 * [CODEC](computer-science/cookbook/CODEC/README.md)
 
 ### Software Engineer
-#### [Software Test](computer-science/engineer/test/README.md)
-#### [Software Development](computer-science/engineer/dev/README.md)
-#### [Github](computer-science/engineer/github/README.md) 
+* #### [Software Test](computer-science/engineer/test/README.md)
+* #### [Software Development](computer-science/engineer/dev/README.md)
+* #### [Github](computer-science/engineer/github/README.md) 
 
 ### Computer Architecture
 * [Parallel Architecture](computer-science/computer-arch/parallel-arch/README.md)
