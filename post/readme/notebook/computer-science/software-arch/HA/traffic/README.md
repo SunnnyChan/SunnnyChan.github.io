@@ -4,6 +4,6 @@
 
 ## 流量控制（traffic control）
 
-* 限流
+* [限流](throttling.md)
 * 流量消峰
 * 流量整形
