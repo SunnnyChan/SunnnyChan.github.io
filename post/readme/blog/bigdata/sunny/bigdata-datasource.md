@@ -1,31 +1,34 @@
 # 大数据 - 数据源
-
+```md
+By sunnnychan@gmail.com
+2018-09-21
+```
 ## 数据源分类
 ### 常见数据源可以区分为以下几类：
 * 磁盘文件类
 ```md
-   日志文件、埋点数据，以及 XML、HTML、Excel、CSV、Mail、word 等格式的单机文件。
+日志文件、埋点数据，以及 XML、HTML、Excel、CSV、Mail、word 等格式的单机文件。
 ```
 * 关系型数据库
 ```md
-   MySQL、SQLServer、Oracle等。
-   （关系型数据库从数据的存储方式看也是一系列结构化的文件）
+MySQL、SQLServer、Oracle等。
+（关系型数据库从数据的存储方式看也是一系列结构化的文件）
 ```
 * 缓存类
 ```md
-   以 Redis、Hbase 为代表的 各类 NoSQL 数据库。
+以 Redis、Hbase 为代表的 各类 NoSQL 数据库。
 ```
 * 消息队列
 ```md
-   以 Kafaka 为代表的各类 MQ。
+以 Kafaka 为代表的各类 MQ。
 ```
 * 接口类
 ```md
-   有时候数据也来之于直接调用服务接口获取。
+有时候数据也来之于直接调用服务接口获取。
 ```
 * 大数据带有存储特性的组件
 ```md
-   Hadoop 文件系统 HDFS，搜索引擎 ES，Cansandra 等。
+Hadoop 文件系统 HDFS，搜索引擎 ES，Cansandra 等。
 ```
 ```md
 可以看出，数据源的范畴很宽泛，但总体看都带有存储属性（内存或磁盘）。

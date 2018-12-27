@@ -4,6 +4,7 @@
 * [大数据 - 出发](sunny/bigdata-process.md)  
 * [大数据 - 数据源](sunny/bigdata-datasource.md)  
 * [大数据 - 数据采集](sunny/bigdata-collection.md)
+* [大数据 - 数据存储](sunny/bigdata-storage.md)
 * [大数据 - 数据仓库](sunny/bigdata-datawarehouse.md) 
 * [大数据 - 查询引擎](sunny/bigdata-query-engine.md)
 * [大数据 - 处理框架](sunny/bigdata-framework.md)
