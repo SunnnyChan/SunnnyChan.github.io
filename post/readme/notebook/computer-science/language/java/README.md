@@ -16,11 +16,15 @@
 
 * [Maven](maven/README.md)
 
+## Java 编程范式
+* [Java OOP]()
+* [Java FP]()
+
 ## Java 语言特性
-* [Java Exception]()
+* [Java Exception](java-language-features/Exception.md)
+* [Java Reflect](java-language-features/Reflect.md)
 
 ## Reference
-
 ### Resources
 * [awesome-java](https://github.com/akullpp/awesome-java)
 
