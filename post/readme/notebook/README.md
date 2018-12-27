@@ -12,6 +12,8 @@
 * [AI](internet/ai/README.md)
 * [Knowledge Graph](internet/knowledge-graph/README.md)
 
+* [Pay](internet/pay/README.md)
+
 ### Programe
 #### Language
 * [Java](computer-science/language/java/README.md)
