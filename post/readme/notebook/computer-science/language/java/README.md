@@ -18,7 +18,7 @@
 * [Java Exception](java-language-features/Exception.md)
 * [Java Reflect](java-language-features/Reflect.md)
 
-## Java 类库
+## [Java 类库](java-lib/README.md)
 * [Java Collections](java-lib/java-collections/README.md)
 * [Java IO](java-lib/java-IO/README.md)
 
