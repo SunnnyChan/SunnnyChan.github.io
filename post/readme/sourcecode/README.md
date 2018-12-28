@@ -1,7 +1,7 @@
 # 源码
 
 ## Java
-* [Java Map](java/map/README.md)
+* [Java Collection](java/collection/README.md)
 
 ## Products
 ### MQ

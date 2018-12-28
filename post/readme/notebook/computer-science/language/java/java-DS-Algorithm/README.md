@@ -2,16 +2,18 @@
 
 ## 数据结构
 ![](pic/java-collections.png)
-* Container
+### Container
 ```md
 在Java当中，如果有一个类专门用来存放其它类的对象，这个类就叫做容器。
 ```
-> * [Collection](java-collection/README.md)
-> * [Map](java-map/README.md)
+* [Collection](java-collection/README.md)
+> * [List](java-collection/list/README.md)
+> * [Set](java-collection/set/README.md)
+> * [Queue](java-collection/queue/README.md)
+
+* [Map](java-map/README.md)
 
 * [Array](java-array/README.md)
-* [Queue](java-queue/README.md)
-
 
 ## 算法
 * [Sorting]()

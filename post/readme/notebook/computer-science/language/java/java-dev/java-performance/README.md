@@ -1,8 +1,10 @@
 # Java Performance
 
 ## Performance Optimization
-* Java Code Performance
+* System Performance
 * [JVM Performance](JVM-perf.md)
+* Java Application Performance
+* Java Code Performance
 
 ## Tools
 * [JVM tools](../java-jvm/jvm-tools/README.md)
