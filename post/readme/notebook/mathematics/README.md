@@ -9,6 +9,7 @@
 
 
 
+* [Discrete Mathematics](Discrete-math/README.md)
 * [Probability and Statistics](Probability-and-Statistics/README.md)
 
 
