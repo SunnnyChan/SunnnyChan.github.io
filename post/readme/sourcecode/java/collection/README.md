@@ -1,12 +1,13 @@
 # Java Map
 
+* [java.util.Collection](interface/java.util.Collection.md)
 
-* [java.util.Map](java.util.Map.md)
-* [java.util.SortedMap](java.util.SortedMap.md)
+* [java.util.Map](interface/java.util.Map.md)
+* [java.util.SortedMap](interface/java.util.SortedMap.md)
 
 
 ## Collections Class Graph
-![](java-collections-class-map.png)
+![](pic/java-collections-class-map.png)
 
 ## Map Class Graph
-![](java-map-map.png)
+![](pic/java-map-map.png)
