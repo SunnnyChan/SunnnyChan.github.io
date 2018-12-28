@@ -7,20 +7,16 @@
 > * [Java Lanmbda]()
 > * [Java Stream]()
 
-## Java 语言特性
-* [Java JVM](java-language-features/java-jvm/README.md)
-* [Java GC](java-language-features/java-jvm/java-GC/README.md)
-
-* [Java Generics]()
-* [Java Enum]()
-* [Java Annotation]()
-
-* [Java Exception](java-language-features/Exception.md)
-* [Java Reflect](java-language-features/Reflect.md)
+## [Java 语言特性](java-language-features/README.md)
 
 ## [Java 类库](java-lib/README.md)
-* [Java Collections](java-lib/java-collections/README.md)
 * [Java IO](java-lib/java-IO/README.md)
+
+## [Java 数据结构与算法](java-DS-Algorithm/README.md)
+* [Java Collections](java-DS-Algorithm/java-collection/README.md)
+
+## [Java JVM](java-jvm/README.md)
+* [Java GC](java-jvm/java-GC/README.md)
 
 ## Java 应用
 * [Java Web](java-web/README.md)
