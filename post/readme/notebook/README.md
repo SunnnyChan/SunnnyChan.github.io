@@ -63,7 +63,9 @@
 
 * [Google Methodology - WuJun](methodology/google-methodology/README.md) 
 
-## Mathematics
+## [Mathematics](mathematics/README.md)
 
-## Interview
+## [English](english/README.md)
+
+## [Interview](interview/README.md)
 
