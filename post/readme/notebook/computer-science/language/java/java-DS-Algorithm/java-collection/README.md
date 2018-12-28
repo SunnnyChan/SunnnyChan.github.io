@@ -33,9 +33,9 @@
 
 ## [Queue](queue/README.md)
 * Queue<E>
-* ArrayDeque<E> 
+* Deque<E>
 
-
+* ArrayDeque<E>
 
 ## Reference
 * [Java Collections](https://howtodoinjava.com/java-collections/)
