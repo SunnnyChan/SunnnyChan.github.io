@@ -30,9 +30,9 @@
 
 ### Nested Class
 
-
-## Collections Class Graph
+## Class Graph
+### Collections Class Graph
 ![](pic/java-collections-class-map.png)
 
-## Map Class Graph
+### Map Class Graph
 ![](pic/java-map-map.png)
