@@ -23,10 +23,13 @@
 * [《Linux C 编程一站式学习》](language/c/linux-c-programming/README.md)
 
 #### Java
-* [《Thinking in Java》]
+* [《Thinking in Java》](language/java/Thinking-in-Java/README.md)
+* [《Effective Java》](language/java/Effective-Java/README.md)
+
 * [《Java 并发编程的艺术》](language/java/art_of_java_concurrency_programming/README.md)
 * [《图解 Java 多线程设计模式》](language/java/java-MT-thread-DP/README.md)
 * [《Java 性能权威指南》](language/java/java-performance-the-definitive-guide/README.md)
+
 #### Lua
 * [《Lua 程序设计》](language/lua/lua_programming/README.md)
 
