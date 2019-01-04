@@ -21,6 +21,7 @@
 
 ## Java 应用
 * [Java Web](java-web/README.md)
+* [Java Component](java-component/README.md)
 
 ## Java 开发
 * [Java Debug](java-dev/java-debug/README.md)
@@ -41,3 +42,6 @@
 * [Java Best Practices Guide](https://howtodoinjava.com/java-best-practices/)
 * [Java Interview Puzzles with Answers](https://howtodoinjava.com/java-interview-puzzles-answers/)
 * [Software Development & Entrepreneurship Tutorials](http://tutorials.jenkov.com/)
+
+### Github
+* [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial)
