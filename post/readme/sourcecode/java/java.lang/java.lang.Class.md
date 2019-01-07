@@ -5,3 +5,4 @@ public final class Class<T> implements java.io.Serializable,
                               Type,
                               AnnotatedElement {}
 ```
+

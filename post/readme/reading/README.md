@@ -53,10 +53,10 @@
 * [《Akka 应用模式： 分布式应用程序设计实践指南》](arch/applied-akka-patterns/README.md)
 
 ### Microservice
-* [Microservices AntiPatterns and Pitfalls](arch/Microservices-AntiPatterns-and-Pitfalls/README.md)
+* [《Microservices AntiPatterns and Pitfalls》](arch/Microservices-AntiPatterns-and-Pitfalls/README.md)
 
 ## Basic Techniques
-* [Mastering RE](basic/mastering-RE/README.md)
+* [《Mastering RE》](basic/mastering-RE/README.md)
 
 ## Blockchain
 * [《去中心化应用 : 区块链技术概述》](blockchain/dapp/README.md)
