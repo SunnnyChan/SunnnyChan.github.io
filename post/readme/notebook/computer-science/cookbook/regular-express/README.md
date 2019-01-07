@@ -7,6 +7,3 @@
 ## Reference
 ### Book Reading Notes
 * [Mastering Regular Expressions](https://github.com/SunnnyChan/SunnnyChan.github.io/blob/master/post/readme/reading/basic/mastering-RE/README.md)
-
-### Resource 
-*  [Java Regular Expression Tutorial](https://howtodoinjava.com/java-regular-expression-tutorials/)
