@@ -1,7 +1,9 @@
 # 区块链核心算法解析
 > The Science of the Blockchain
-> [瑞士] Roger Watterhofer
-> 2018-12-03
+```md
+ [瑞士] Roger Watterhofer
+ 2018-12-03
+```
 
 ### Chapter 1 绪论
 * [什么是分布式系统](chapter/chapter-1-1_what_is_DS.md)

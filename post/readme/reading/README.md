@@ -39,7 +39,7 @@
 * [《Effective MySQL : Optimizing SQL Statements》](db/effective_mysql_sql_statements/README.md)
 
 * [《Relational Database Index Design and the Optimizers》]()
-* [《SQL CookBook》]
+* [《SQL CookBook》]()
 * [《Effective SQL : 编写高质量SQL语句的61个有效方法》](db/effective_sql/README.md)
 
 ## Software Architecture
@@ -54,6 +54,9 @@
 
 ### Microservice
 * [Microservices AntiPatterns and Pitfalls](arch/Microservices-AntiPatterns-and-Pitfalls/README.md)
+
+## Basic Techniques
+* [Mastering RE](basic/mastering-RE/README.md)
 
 ## Blockchain
 * [《去中心化应用 : 区块链技术概述》](blockchain/dapp/README.md)
