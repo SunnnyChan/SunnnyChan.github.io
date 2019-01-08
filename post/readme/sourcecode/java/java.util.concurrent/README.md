@@ -1,7 +1,5 @@
 # Java Concurrency
 
-* [ConcurrentHashMap](ConcurrentHashMap.md)
-
 ## Class Graph
 ### JUC Thread Class Graph
 ![](pic/JUC-Thread-Class-Map.png)
