@@ -4,11 +4,11 @@
 * [Java Reflect](java-language-features/Reflect.md)
 
 ## Java 8
-* [Java Default Methods](Java8-Default.md)
+* [Java Default Methods](Java8_Default-Methods.md)
 * [Java Lanmbda]()
 * [Java Stream]()
 
 ## Java 5
-* [Java Generics]()
+* [Java Generics](Java5_Generics.md)
 * [Java Enum]()
 * [Java Annotation]()

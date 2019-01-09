@@ -6,7 +6,7 @@
 * [Java FP](java-paradigm/java-FP/README.md)
 * [Reactive Programming]()
 
-## [Java 语言特性](java-language-features/README.md)
+## [Java 语言特性](java-features/README.md)
 
 ## [Java 类库](java-lib/README.md)
 * [Guava]()
