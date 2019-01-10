@@ -9,6 +9,6 @@
 * [Java Stream]()
 
 ## Java 5
-* [Java Generics](Java5_Generics.md)
+* [Java Generics](Java5_Generics/README.md)
 * [Java Enum]()
 * [Java Annotation]()
