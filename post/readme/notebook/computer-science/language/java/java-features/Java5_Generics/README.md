@@ -6,13 +6,24 @@
 * 泛型只存在于编译阶段，而不存在于运行阶段
 在编译后的 class 文件中，是没有泛型这个概念的。
 
-* 类型参数名
-可以使用任意字符串，建议使用有代表意义的单个字符，以便于和普通类型名区分
-T代表type，有原数据和目的数据就用S，D，子元素类型用E等。
-
 * 泛型优势
+可以在编译时发现类型不匹配的错误，并且取数据时不需要手动强转类型。
 减少了代码的复杂性：避免了在代码中使用强制类型转换的麻烦。
 增强了代码的安全性：将运行时异常“ClassCastException”转到了编译时检测异常。
+```
+* 类型参数
+```md
+类型参数（又称类型变量）用作占位符，指示在运行时为类分配类型。
+根据惯例，类型参数是单个大写字母，该字母用于指示所定义的参数类型。
+
+推荐的标准类型参数：
+
+E：元素
+K：键
+N：数字
+T：类型
+V：值
+S、U、V 等：多参数情况中的第 2、3、4 个类型
 ```
 * Java 泛型 vs C++ 泛型
 ```md
@@ -87,6 +98,7 @@ new GenericMethod<Integer>().<String>sayHi(i);
 ## 泛型与继承
 ```md
 引用的参数类型与实际对象的参数类型要保持一致（通配符除外），就算两个参数类型是继承关系也是不允许的。
+
 看看下面两行代码，它们均不能通过编译:
 ArrayList<String> arraylist1 = new ArrayList<Object>();
 ArrayList<Object> arrayList2 = new ArrayList<String>();
@@ -135,3 +147,6 @@ public class Son extends Father<String> {
 
 ## 参考
 * [泛型原理](https://blog.wangqi.love/articles/Java/%E6%B3%9B%E5%9E%8B%E5%8E%9F%E7%90%86.html)
+* [Java 泛型详解](https://www.manuu.vip/2017/07/30/Java-Generics/)
+
+* [示例代码](Generic.java)

@@ -33,6 +33,8 @@ List<? extends 类型1> x = new ArrayList<类型2>();
 
 List<? extends Number> x = new ArrayList<Integer>(); // 由于Integer是Number的子类，这是合法的
 List<? extends Number> x = new ArrayList<String>();  // 由于String不是Number的子类，这是不合法的
+
+一旦执行了向上转型，将丢失掉向其中传递任何对象的能力，甚至 Object 也不行。
 ```
 ### 下界限定通配符 (超类型) <? super E>
 ```md
@@ -72,3 +74,11 @@ src是原始列表，我们需要读取其中的元素，所以它是生产者�
 dest是目标列表，需要将读取出来的元素存入这个列表中，所以他是消费者，使用super通配。
 ```
 ## 泛型 与 协变逆变
+```md
+泛型没有内建的协变类型。泛型中利用通配符实现的协变和逆变:
+
+// 协变
+List<? extends Fruit> flist = new ArrayList<Apple>();
+// 逆变
+List<? super Apple> alist = new ArrayList<Fruit>();
+```

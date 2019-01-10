@@ -15,7 +15,7 @@
 * [Pay](internet/pay/README.md)
 
 ### Programe
-#### Language
+#### [Programming Language](computer-science/language/PL/README.md)
 * [Java](computer-science/language/java/README.md)
 * [PHP](computer-science/language/java/README.md)
 
