@@ -7,9 +7,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>
 ## 链表节点 Node
 * static class Node<K,V> implements Map.Entry<K,V> {}
 
-
 ## 存储 
-
 * static final class TreeNode<K,V> extends LinkedHashMap.Entry<K,V> {}
 
 ## 构造函数
@@ -17,6 +15,12 @@ public class HashMap<K,V> extends AbstractMap<K,V>
 ## 主要方法
 ### 增 
 * public V put(K key, V value) {}
+```java
+    public V put(K key, V value) {
+        return putVal(hash(key), key, value, false, true);
+    }
+```
+
 * public void putAll(Map<? extends K, ? extends V> m) {}
 ### 查
 * public V get(Object key) {}

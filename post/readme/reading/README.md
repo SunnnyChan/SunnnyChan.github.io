@@ -10,6 +10,11 @@
 ## Web
 * [《深入理解 Nginx：模块开发和架构解析》](web/understanding-nginx/README.md)
 
+* [RESTful Web APIS](restful-web-apis/README.md)
+* [Java RESTful Web Service 实战](java-restful-web-service-in-action/README.md)
+
+* [架构探险 ： 从零开始写 Java Web 框架](write-a-java-web-framework/README.md)
+
 ## Programming
 * [《冒号课堂》](programe/colon-classroom/README.md)
 * [《函数式编程思维》](programe/functional-thinking/README.md)
