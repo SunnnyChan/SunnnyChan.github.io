@@ -9,11 +9,9 @@
 
 ## Web
 * [《深入理解 Nginx：模块开发和架构解析》](web/understanding-nginx/README.md)
-
-* [RESTful Web APIS](restful-web-apis/README.md)
-* [Java RESTful Web Service 实战](java-restful-web-service-in-action/README.md)
-
-* [架构探险 ： 从零开始写 Java Web 框架](write-a-java-web-framework/README.md)
+* [《RESTful Web APIS》](web/restful-web-apis/README.md)
+* [《Java RESTful Web Service 实战》](web/java-restful-web-service-in-action/README.md)
+* [《架构探险 ：从零开始写 Java Web 框架》](web/write-a-java-web-framework/README.md)
 
 ## Programming
 * [《冒号课堂》](programe/colon-classroom/README.md)
@@ -24,7 +22,7 @@
 * [《性能之巅：洞悉系统、企业和云计算》](programe/profile/sys-performance/README.md)
 
 ### Language
-#### C
+#### C & C++
 * [《Linux C 编程一站式学习》](language/c/linux-c-programming/README.md)
 
 #### Java
