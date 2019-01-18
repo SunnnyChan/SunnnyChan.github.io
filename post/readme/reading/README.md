@@ -28,7 +28,6 @@
 #### Java
 * [《Thinking in Java》](language/java/Thinking-in-Java/README.md)
 * [《Effective Java》](language/java/Effective-Java/README.md)
-
 * [《Java 并发编程的艺术》](language/java/art_of_java_concurrency_programming/README.md)
 * [《图解 Java 多线程设计模式》](language/java/java-MT-thread-DP/README.md)
 * [《Java 性能权威指南》](language/java/java-performance-the-definitive-guide/README.md)
@@ -40,7 +39,6 @@
 * [《高性能 MySQL》](db/hp-mysql/README.md)
 * [《MySQL 内核 : InnoDB 存储引擎》](db/mysql-innodb/README.md)
 * [《Effective MySQL : Optimizing SQL Statements》](db/effective_mysql_sql_statements/README.md)
-
 * [《Relational Database Index Design and the Optimizers》]()
 * [《SQL CookBook》]()
 * [《Effective SQL : 编写高质量SQL语句的61个有效方法》](db/effective_sql/README.md)
@@ -48,7 +46,6 @@
 ## Software Architecture
 * [《面向模式的软件架构 - 卷1 ：模式系统》](arch/POSA-sys-of-patterns/README.md)
 * [《可伸缩架构 : 面向增长应用的高可用》](arch/scalable_arch/README.md)
-
 * [《企业应用架构模式》](arch/patterns-of-enterprise-app-arch/README.md)
 
 ### Distributed Architecture
