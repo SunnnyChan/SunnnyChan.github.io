@@ -14,7 +14,7 @@
 * [《架构探险 ：从零开始写 Java Web 框架》](web/write-a-java-web-framework/README.md)
 
 ## Programming
-* [《冒号课堂》](programe/colon-classroom/README.md)
+* [~《冒号课堂》](programe/colon-classroom/README.md)
 * [《函数式编程思维》](programe/functional-thinking/README.md)
 * [《Thinking Like A Programmrer》](programe/Thinking-Like-A-Programmrer/README.md)
 
@@ -23,21 +23,21 @@
 
 ### Language
 #### C & C++
-* [《Linux C 编程一站式学习》](language/c/linux-c-programming/README.md)
+* [~《Linux C 编程一站式学习》](language/c/linux-c-programming/README.md)
 
 #### Java
 * [《Thinking in Java》](language/java/Thinking-in-Java/README.md)
 * [《Effective Java》](language/java/Effective-Java/README.md)
-* [《Java 并发编程的艺术》](language/java/art_of_java_concurrency_programming/README.md)
+* [~《Java 并发编程的艺术》](language/java/art_of_java_concurrency_programming/README.md)
 * [《图解 Java 多线程设计模式》](language/java/java-MT-thread-DP/README.md)
-* [《Java 性能权威指南》](language/java/java-performance-the-definitive-guide/README.md)
+* [~《Java 性能权威指南》](language/java/java-performance-the-definitive-guide/README.md)
 
 #### Lua
-* [《Lua 程序设计》](language/lua/lua_programming/README.md)
+* [~《Lua 程序设计》](language/lua/lua_programming/README.md)
 
 ## DataBase
-* [《高性能 MySQL》](db/hp-mysql/README.md)
-* [《MySQL 内核 : InnoDB 存储引擎》](db/mysql-innodb/README.md)
+* [~《高性能 MySQL》](db/hp-mysql/README.md)
+* [~《MySQL 内核 : InnoDB 存储引擎》](db/mysql-innodb/README.md)
 * [《Effective MySQL : Optimizing SQL Statements》](db/effective_mysql_sql_statements/README.md)
 * [《Relational Database Index Design and the Optimizers》]()
 * [《SQL CookBook》]()
@@ -45,11 +45,11 @@
 
 ## Software Architecture
 * [《面向模式的软件架构 - 卷1 ：模式系统》](arch/POSA-sys-of-patterns/README.md)
-* [《可伸缩架构 : 面向增长应用的高可用》](arch/scalable_arch/README.md)
+* [~《可伸缩架构 : 面向增长应用的高可用》](arch/scalable_arch/README.md)
 * [《企业应用架构模式》](arch/patterns-of-enterprise-app-arch/README.md)
 
 ### Distributed Architecture
-* [《分布式服务框架：原理与实践》](arch/DS-Service-Framework/README.md)
+* [~《分布式服务框架：原理与实践》](arch/DS-Service-Framework/README.md)
 * [《Akka 应用模式： 分布式应用程序设计实践指南》](arch/applied-akka-patterns/README.md)
 
 ### Microservice
@@ -59,7 +59,7 @@
 * [《Mastering RE》](basic/mastering-RE/README.md)
 
 ## Blockchain
-* [《去中心化应用 : 区块链技术概述》](blockchain/dapp/README.md)
+* [~《去中心化应用 : 区块链技术概述》](blockchain/dapp/README.md)
 * [《区块链核心算法解析》](blockchain/algos_in_blockchain/README.md)
 
 ## Computer Architecture
