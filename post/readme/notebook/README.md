@@ -67,5 +67,3 @@
 
 ## [English](english/README.md)
 
-## [Interview](interview/README.md)
-
