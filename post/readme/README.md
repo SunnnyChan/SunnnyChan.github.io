@@ -8,7 +8,7 @@
 * ### [API](blog/programe/README.md)
 * ### [Algorithm](blog/programe/algorithm/README.md)
 
-### Language
+### [Language](blog/language/README.md)
 * ### [Java](blog/language/java/README.md)
 * ### [PHP](blog/language/php/README.md)
 * ### [Lua](blog/language/lua/README.md)
