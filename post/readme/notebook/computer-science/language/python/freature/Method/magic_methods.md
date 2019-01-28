@@ -60,12 +60,18 @@ class FileObject:
 
 ## 类型转换
 
-## Misc
+## 打印
 * __str__()
 ```md
 如果要把一个类的实例变成 str，就需要实现特殊方法__str__()。
 ```
+
 * __repr__()
 ```md
 __str__()用于显示给用户，而__repr__()用于显示给开发人员。
 ```
+
+## Utils
+* __len__()
+* __reversed__()
+* __contains__()

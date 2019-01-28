@@ -5,7 +5,7 @@
 ## [Development](dev/README.md)
 * [PyCharm](dev/PyCharm.md)
 
-## [Modules](modules/README.md)
+## [Packages](package/README.md)
 * import
 
 
