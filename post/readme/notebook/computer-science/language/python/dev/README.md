@@ -12,3 +12,5 @@ $pip3 install --upgrade setuptools
 ```
 ### 打包
 * pyinstaller
+
+
