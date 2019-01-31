@@ -20,7 +20,7 @@
 ### Linux
 * ### [Shell](blog/linux/shell/README.md)
 
-## [Sunny's NoteBook](notebook/README.md)
+## [Sunny's NoteBook](https://github.com/SunnnyChan/sc.study-notes)
 ## [Sunny's Reading-Notes](reading/README.md)
 ## [Sunny's Reading Source Code](sourcecode/README.md)
 ## [Sunny's Projects](project/README.md)
