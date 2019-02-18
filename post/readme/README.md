@@ -22,7 +22,7 @@
 
 
 ## [Sunny's Study NoteBook](https://github.com/SunnnyChan/sc.study-notes)
-## [Sunny's Book Reading-Notes](https://github.com/SunnnyChan/sc.reading-notes)
+## [Sunny's Book Reading-Notes](https://github.com/SunnnyChan/sc.ebooks/blob/master/reading/README.md)
 ## [Sunny's Reading Source Code](sourcecode/README.md)
 ## [Sunny's Projects](project/README.md)
 ## [Sunny's Q&A](Q&A/README.md)
