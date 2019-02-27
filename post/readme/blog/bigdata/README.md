@@ -12,5 +12,8 @@
 * [大数据 - 数据分析](sunny/bigdata-analysis.md)
 * [大数据 - 数据加速](sunny/bigdata-spower.md)
 
-## Spark
+## 大数据实践
+* [大数据实践 - 如何搭建一套大数据分析平台](https://github.com/SunnnyChan/knowledge-Sys-of-bigdata/blob/master/practice/data-analytics-deploy/README.md)
+
+### Spark
 * [Apache Livy 应用实践](spark/Apache-Livy_practice.md)
