@@ -13,15 +13,16 @@ Paragraph 执行过程 是 Zeppelin 的核心流程，搞定这部分的流程�
 ```
 ```md
 Paragraph 执行的逻辑主要涉及 zeppelin-server、zeppelin-zengine、zeppelin-interperter
-三个模块的代码，它们也是 Zeppelin 代码模块。
+三个模块的代码，它们也是 Zeppelin 的核心模块。
 ```
 ## 1. 提交 Paragraph Job 至 Scheduler
 ![](pic/Paragraph_Submit.png)
 ```md
-Zeppelin Server 服务基于 Jetty 构建，提供基于 Jersey 实现的 RESETful  和 WebSocket 服务。
-所以 Paragraph 执行 有两个入口：
-NotebookRestApi 类中定义的 RESETful API ("job/{noteId}/{paragraphId}")；
-NotebookServer 勒种实现的 WebSocket API （"RUN_PARAGRAPH"）。
+Zeppelin Server 服务基于 Jetty 构建，提供 WebSocket 服务 和 基于 Jersey 实现的 RESETful API 服务。
+
+Paragraph 执行也有两个入口：
+NotebookRestApi 类中实现的 RESETful API ("job/{noteId}/{paragraphId}")；
+NotebookServer 类中实现的 WebSocket API （"RUN_PARAGRAPH"）。
 ``` 
 ```md
 WebSocket 是基于事件驱动的方式实现的，当有请求提交时，事件会由 onMessage(NotebookSocket conn, String msg);
@@ -180,8 +181,7 @@ Scheduler 的 submit 在 抽象类 org.apache.zeppelin.scheduler.AbstractSchedul
 ## 2. 提交 Paragraph Job 至 RemoteInterpreterServer
 ![](pic/Paragraph_Execute.png)
 ```md
-Scheduler 有多个实现，默认是 FIFOScheduler，我们以 FIFOScheduler 为例
-先看下 Paragraph 类 Scheduler 的继承结构：
+看下 Paragraph 类 和 Scheduler （Scheduler 有多个实现，以 FIFOScheduler 为例） 的继承结构：
 ```
 ![](pic/Paragraph-UML.jpg)
 ![](pic/FIFOScheduler-UML.jpg)
@@ -236,6 +236,7 @@ public class FIFOScheduler extends AbstractScheduler {
     executor.execute(() -> runJob(job));
   }
 }
+```
 ```md
 FIFOScheduler 是以一个单线程的 线程池来 串行执行 Job的。
 FIFOScheduler 重写了 runJobInScheduler() 方法，最终调用 Paragraph 的 runJob(job)。
@@ -426,7 +427,7 @@ RemoteInterpreterResult remoteResult = client.interpret(
   sessionId, className, st, convert(context));
 ```
 ```md
-来提交 Paragraph Job 至 RemoteInterpreterServer，这是一次 thrift 交互。
+来提交 Paragraph Job 至 RemoteInterpreterServer，这是一次 thrift 请求。
 ```
 
 ## 3. 提交 Interpreter Job 至 Scheduler
