@@ -53,10 +53,20 @@
 
 ## Linux
 ### [Shell](blog/linux/shell/README.md)
-* [Shell - 使用介绍](blog/linux/shell/shell-introdution.md)
-* [Shell - Programming Cookbook](blog/linux/shell/Shell-Cookbook.md) 
+* [Shell 使用介绍](blog/linux/shell/shell-introdution.md)
+* [Shell Programming Cookbook](blog/linux/shell/Shell-Cookbook.md) 
+
+* [Shell 脚本开发框架](https://github.com/SunnnyChan/shell.utils/blob/master/refer/dev/DevFramework.md) 
+* [Shell 日志库](https://github.com/SunnnyChan/shell.utils/tree/master/lib/log)
+* [Shell INI配置文件解析库](https://github.com/SunnnyChan/shell.utils/tree/master/lib/config/ini)
+
+## Project
+* [基于 Openresty 的 Nginx、Lua 开发框架 - OVP](https://github.com/SunnnyChan/OVP)
+* [基于 OVP 的流量管理平台 - tak-tin](https://github.com/SunnnyChan/tak-tin)
+* [轻量级 REST API 开发框架 - restful-web](https://github.com/SunnnyChan/restful-web)
+* [API 测试框架 - sunny-test](https://github.com/SunnnyChan/sunny-test)
+* [Shell 脚本应用工具集 - shell.utils](https://github.com/SunnnyChan/shell.utils) 
 
 ## [Sunny's Book Reading Notes](https://github.com/SunnnyChan/sc.ebooks)
 ## [Sunny's Reading Source Code](https://github.com/SunnnyChan/sc.drill-code)
-## [Sunny's Projects](project/README.md)
 ## [Sunny's Q&A](Q&A/README.md)
