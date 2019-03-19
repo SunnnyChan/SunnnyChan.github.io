@@ -17,6 +17,9 @@
 
 * [大数据实践 - 如何搭建一套大数据分析平台](https://github.com/SunnnyChan/knowledge-Sys-of-bigdata/blob/master/practice/data-analytics-deploy/README.md)
 
+### Apache Zeppelin 源码阅读
+* [Paragraph 执行过程]()
+
 ## Web
 ### [Nginx](blog/web/README.md)
 * [Nignx 基础应用](blog/web/nginx/nginx-utility.md)
