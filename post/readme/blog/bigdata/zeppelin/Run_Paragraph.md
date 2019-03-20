@@ -1,5 +1,9 @@
 # Apache_Zeppelin_0.9 源码阅读 - [Paragraph 执行过程]
-
+```md
+开始分析之前，推荐搭建一个环境，这样理解起来会更容易些。
+搭建环境的过程可以参考：
+```
+**[《大数据分析平台实践 - 如何搭建一套完成的大数据分析平台》](https://github.com/SunnnyChan/knowledge-Sys-of-bigdata/blob/master/practice/data-analytics-deploy/)**
 ```md
 Paragraph 执行过程 是 Zeppelin 的核心流程，搞定这部分的流程，
 基本上就对Zeppelin 的原理和代码 有一个很深入的认识了。
@@ -15,12 +19,17 @@ Paragraph 执行过程 是 Zeppelin 的核心流程，搞定这部分的流程�
 Paragraph 执行的逻辑主要涉及 zeppelin-server、zeppelin-zengine、zeppelin-interperter
 三个模块的代码，它们也是 Zeppelin 的核心模块。
 ```
+```md
+以下以 Spark SQL 为例，对 Paragraph 执行过程 过程做一个源码 分析。
+```
+
 ## 1. 提交 Paragraph Job 至 Scheduler
 ![](pic/Paragraph_Submit.png)
 ```md
 Zeppelin Server 服务基于 Jetty 构建，提供 WebSocket 服务 和 基于 Jersey 实现的 RESETful API 服务。
+数据交互场景基本使用 WebSocket 服务，Note 相关操作使用 RESETful API 服务。
 
-Paragraph 执行也有两个入口：
+Paragraph 执行的 入口 API 有两个：
 NotebookRestApi 类中实现的 RESETful API ("job/{noteId}/{paragraphId}")；
 NotebookServer 类中实现的 WebSocket API （"RUN_PARAGRAPH"）。
 ``` 
