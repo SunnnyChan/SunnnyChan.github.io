@@ -8,7 +8,7 @@ Paragraph 执行过程 是 Zeppelin 的核心流程，搞定这部分的流程�
 基本上就对Zeppelin 的原理和代码 有一个很深入的认识了。
 ```
 ```md
-我把 Paragraph 执行过程 分为4个步骤：
+我把 Paragraph 执行过程分为4个步骤：
 1. 解析执行参数，构建 Paragraph Job 提交至 Scheduler；
 2. Scheduler 根据策略 调度 Paragraph Job，提交至 RemoteInterpreterServer 执行；
 3. RemoteInterpreterServer 解析参数，构建 Interpreter Job 提交至 Scheduler；
@@ -19,7 +19,7 @@ Paragraph 执行的逻辑主要涉及 zeppelin-server、zeppelin-zengine、zeppe
 三个模块的代码，它们也是 Zeppelin 的核心模块。
 ```
 ```md
-以下以 Spark SQL 为例，对 Paragraph 执行过程 过程做一个源码 分析。
+以下以 Spark SQL 为例，对 Paragraph 执行过程做一个源码分析。
 ```
 
 ## 1. 提交 Paragraph Job 至 Scheduler
