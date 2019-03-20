@@ -1,15 +1,14 @@
 # Apache_Zeppelin_0.9 源码阅读 - [Paragraph 执行过程]
-```md
+
 开始分析之前，推荐搭建一个环境，这样理解起来会更容易些。
 搭建环境的过程可以参考：
-```
 **[《大数据分析平台实践 - 如何搭建一套完成的大数据分析平台》](https://github.com/SunnnyChan/knowledge-Sys-of-bigdata/blob/master/practice/data-analytics-deploy/)**
 ```md
 Paragraph 执行过程 是 Zeppelin 的核心流程，搞定这部分的流程，
 基本上就对Zeppelin 的原理和代码 有一个很深入的认识了。
 ```
 ```md
-我把 Paragraph 执行过程 分为 4个 步骤：
+我把 Paragraph 执行过程 分为4个步骤：
 1. 解析执行参数，构建 Paragraph Job 提交至 Scheduler；
 2. Scheduler 根据策略 调度 Paragraph Job，提交至 RemoteInterpreterServer 执行；
 3. RemoteInterpreterServer 解析参数，构建 Interpreter Job 提交至 Scheduler；
